@@ -1,0 +1,35 @@
+2023-05-17 09:06:24 [scrapy] DEBUG: Crawled (200) <GET https://www.amazon.in/robots.txt> (referer: None)
+2023-05-17 09:06:25 [scrapy] DEBUG: Retrying <GET https://www.amazon.in/> (failed 1 times): 503 Service Unavailable
+2023-05-17 09:06:25 [scrapy] DEBUG: Retrying <GET https://www.amazon.in/> (failed 2 times): 503 Service Unavailable
+2023-05-17 09:06:25 [scrapy] DEBUG: Gave up retrying <GET https://www.amazon.in/> (failed 3 times): 503 Service Unavailable
+2023-05-17 09:06:25 [scrapy] DEBUG: Crawled (503) <GET https://www.amazon.in/> (referer: None)
+2023-05-17 09:06:25 [scrapy] INFO: Ignoring response <503 https://www.amazon.in/>: HTTP status code is not handled or not allowed
+2023-05-17 09:06:25 [scrapy] INFO: Closing spider (finished)
+2023-05-17 09:06:25 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 858,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 14604,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/503': 3,
+ 'elapsed_time_seconds': 1.820968,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 5, 17, 4, 6, 25, 529307),
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/503': 1,
+ 'log_count/DEBUG': 5,
+ 'log_count/INFO': 8,
+ 'response_received_count': 2,
+ 'retry/count': 2,
+ 'retry/max_reached': 1,
+ 'retry/reason_count/503 Service Unavailable': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2023, 5, 17, 4, 6, 23, 708339)}
+2023-05-17 09:06:25 [scrapy] INFO: Spider closed (finished)

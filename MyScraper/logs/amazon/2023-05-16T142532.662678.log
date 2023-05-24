@@ -1,0 +1,30 @@
+2023-05-16 14:25:33 [scrapy] DEBUG: Crawled (200) <GET https://www.amazon.in/robots.txt> (referer: None)
+2023-05-16 14:25:34 [scrapy] DEBUG: Crawled (200) <GET https://www.amazon.in/> (referer: None)
+2023-05-16 14:25:35 [scrapy] DEBUG: Crawled (200) <GET https://www.amazon.in/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=laptop&crid=2H9F22BB8QJ8P&sprefix=laptop%2Caps%2C475> (referer: https://www.amazon.in/ref=nav_logo)
+2023-05-16 14:25:35 [scrapy] DEBUG: Scraped from <200 https://www.amazon.in/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=laptop&crid=2H9F22BB8QJ8P&sprefix=laptop%2Caps%2C475>
+{'pages': 20, 'ages': 23, 'url': 'https://www.amazon.in/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=laptop&crid=2H9F22BB8QJ8P&sprefix=laptop%2Caps%2C475'}
+2023-05-16 14:25:35 [scrapy] INFO: Closing spider (finished)
+2023-05-16 14:25:35 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 965,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 203945,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 3,
+ 'elapsed_time_seconds': 2.585021,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 5, 16, 9, 25, 35, 572495),
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 4,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 3,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2023, 5, 16, 9, 25, 32, 987474)}
+2023-05-16 14:25:35 [scrapy] INFO: Spider closed (finished)
